@@ -63,7 +63,7 @@
 					]
 				},
 				"url": {
-					"raw": "http://162.55.220.72:5005/user_info_3?name=sergey&age=23&salary=1",
+					"raw": "http://162.55.220.72:5005/user_info_3",
 					"protocol": "http",
 					"host": [
 						"162",
@@ -74,20 +74,6 @@
 					"port": "5005",
 					"path": [
 						"user_info_3"
-					],
-					"query": [
-						{
-							"key": "name",
-							"value": "sergey"
-						},
-						{
-							"key": "age",
-							"value": "23"
-						},
-						{
-							"key": "salary",
-							"value": "1"
-						}
 					]
 				}
 			},
