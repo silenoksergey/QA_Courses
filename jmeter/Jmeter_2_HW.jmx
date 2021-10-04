@@ -94,12 +94,11 @@
             <collectionProp name="Arguments.arguments">
               <elementProp name="" elementType="HTTPArgument">
                 <boolProp name="HTTPArgument.always_encode">false</boolProp>
-                <stringProp name="Argument.value">{&#xd;
-    &quot;age&quot;: &quot;23&quot;,&#xd;
-    &quot;salary&quot;: &quot;50000&quot;,&#xd;
-    &quot;name&quot;: &quot;Sergey&quot;,&#xd;
-    &quot;auth_token&quot;: &quot;${token}&quot;&#xd;
-&#xd;
+                <stringProp name="Argument.value">{ &#xd;
+	&quot;age&quot;: &quot;23&quot;, &#xd;
+	&quot;salary&quot;: &quot;50000&quot;,&#xd;
+	&quot;name&quot;: &quot;Sergey&quot;,&#xd;
+	&quot;auth_token&quot;: &quot;${token}&quot;&#xd;
 }</stringProp>
                 <stringProp name="Argument.metadata">=</stringProp>
               </elementProp>
