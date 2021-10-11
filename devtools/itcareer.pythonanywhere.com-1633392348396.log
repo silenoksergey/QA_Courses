@@ -1,0 +1,2 @@
+itcareer.pythonanywhere.com/:1 [DOM] Input elements should have autocomplete attributes (suggested: "current-password"): (More info: https://goo.gl/9p2vKq) <input type=​"password" class=​"form-control" id=​"password" name=​"password" placeholder=​"Enter a password.">​
+/favicon.ico:1 Failed to load resource: the server responded with a status of 404 (NOT FOUND)
