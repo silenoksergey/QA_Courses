@@ -1,0 +1,27 @@
+from flask import Flask, request, jsonify
+
+app = Flask(__name__)
+
+@app.route('/')
+def hello_world():
+    return '<p>Sergo is here :)<p>'
+
+
+@app.route('/work')
+def sun_function():
+    return '<p>It works!!<p>'
+
+@app.route('/nightcity', methods=['POST'])
+def nightevents():
+    if request.method == 'POST':
+        name = request.form.get('name')
+        money = int(request.form.get('money'))
+
+        resp = {'Name': name + ' Silverhand',
+                'Money': money*3}
+        return jsonify(resp)
+
+@app.route('/sendtext', methods=['GET', 'POST', 'PUT'])
+def sendtext():
+    custom_text = 'Python_course API lesson!!'
+    return custom_text
